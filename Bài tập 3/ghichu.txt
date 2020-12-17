@@ -1,1 +1,3 @@
-
+pt:là phép tính
+== : so sánh 
+= : gán
