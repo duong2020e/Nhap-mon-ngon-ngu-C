@@ -1,3 +1,4 @@
 pt:là phép tính
 == : so sánh 
 = : gán
+printf():là câu lệnh để xuất ra màn hình
