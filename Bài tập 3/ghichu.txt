@@ -2,3 +2,4 @@ pt:là phép tính
 == : so sánh 
 = : gán
 printf():là câu lệnh để xuất ra màn hình
+++:phép cho phép phần gán tăng thêm 1 chữ số
