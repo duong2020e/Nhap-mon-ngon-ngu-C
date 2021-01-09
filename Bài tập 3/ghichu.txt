@@ -4,3 +4,19 @@ pt:là phép tính
 printf():là câu lệnh để xuất ra màn hình
 ++:phép cho phép phần gán tăng thêm 1 chữ số
 !=: khác
+#include <stdio.h>
+
+int main(void) {
+  int n = 123;
+  int s = 0;
+  int so;
+ for(int i = 1; i <= 3; i++){
+   so = n % 10;
+   // cập nhật lại n
+   n = n / 10;
+   // tính tổng 
+   s = s + so; 
+ }
+ printf("%d",s); 
+  return 0;
+}  
