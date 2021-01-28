@@ -1,0 +1,16 @@
+A.Khái Niệm, cú pháp khai báo biến trong C
+  +Biến là một ô nhớ lưu trữ dữ liệu và có thể được thay đổi trong chương trình
+  +cú pháp khai báo biến: 
+    +kiểu_dữ_liệu tên_biến
+B.Biến toàn cục và biến cục bộ
+  +Biến toàn cục được khai báo bên ngoài tất cả  các hàm kể cả hàm main và có thể được sử dụng tại mọi vị trí trong chương trình
+  +Biến cục bộ được khai báo trong một hàm, khối lệnh thì chỉ có thể được sử dụng trong hàm, khối lệnh đó.
+C.Khái niệm và Phân loại hàm trong C:
++khái niệm : hàm là một khối lệnh ( nhiều lệnh) thực hiện 1 nhiệm vụ cụ thể nào đó (tính tổng, hiển thị khai báo cho người dùng...).
+-Cách hiểu khác về hàm : hàm là 1 sự chia nhỏ của chương trình.
++Phân loại: Có 2 loại hàm 
+-Hàm thư viện chuẩn (standard library functions):
+*Là hàm được xây dựng sẵn (build-in functions)trong ngôn ngư C như hàm scanf, printf... 
+*Các hàm này được định nghĩa trong các tập tin có phần mở rộng .h ,.. các tập tin này phải được gộp vào chương trình thông qua chỉ định #include.
+-hàm do người dùng định nghĩa(user-defined functions):
+*Định nghĩa theo nhu cầu ngươi dùng.
